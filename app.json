@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundColor": "#e64340",
+    "backgroundTextStyle": "light",
+    "backgroundColorTop": "#e64340",
+    "backgroundColorBottom": "#576b95",
+    "navigationBarBackgroundColor": "#09bb07",
+    "navigationBarTitleText": "教育云",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color": "#b2b2b2",
+    "selectedColor": "#09bb07",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/tabbar_normal.png",
+        "selectedIconPath": "image/tabbar_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/tabbar_normal.png",
+        "selectedIconPath": "image/tabbar_selected.png",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
